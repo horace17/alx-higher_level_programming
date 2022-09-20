@@ -5,12 +5,14 @@ import random
 number = random.randint(-10, 10)
 
 if number > 0:
-    print(is positive)
+    str = "is positive"
 
 else if number == 0:
-    print(is zero)
+    str = "is zero"
 
 else:
-    print(is negative)
+    str = "is negative"
+
+print("{:d} {:s}".format(number, str))
 
 
