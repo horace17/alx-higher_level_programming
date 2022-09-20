@@ -11,6 +11,6 @@ else if number == 0:
     print(is zero)
 
 else:
-    prin(is negative)
+    print(is negative)
 
 
